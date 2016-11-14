@@ -1,0 +1,134 @@
+html {
+  text-size-adjust: 100%;
+}
+
+/*Top section containing my image and quote starts here*/
+.header {
+     background-image: url('/public/images/space.png');
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-position:center;
+     /*position:relative;*/
+ }
+
+.mypic {
+   display:flex;
+   justify-content:center;
+   padding-right:12em;
+   margin-top: 8em;    
+}
+
+blockquote.bq {
+    align-self:center;
+}
+
+blockquote {
+    background-color: rgba(232, 221, 221, 0.70);
+    color: rgba(72, 12, 12, 0.87);
+    width:400px; 
+      
+}
+
+.myquote {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:4em;
+    margin-right:5em;
+    height:80px;
+    width:420px;
+}
+
+blockquote h3 {
+    color: rgba(72, 12, 12, 0.87);
+}
+/*Portfolio section starts here*/
+
+.portfolio {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    top:20em;
+    flex-wrap:wrap;
+    list-style-type: none;
+}
+/*social section starts here*/
+
+.social{
+    background-color:rgba(0, 0, 0, 0.94);
+}
+
+span {
+    font-style:italic;
+    font-size:14px;
+}
+
+.myblog {
+     background-color:rgba(0, 0, 0, 0.94);
+}
+
+.react {
+    background-image: url('/public/images/react.png');
+}
+
+.blog1 {
+    
+    background-color: rgba(241, 224, 224, 0.64);
+}
+
+.read1 {
+    display:flex;
+    align-content:flex-end;
+}
+
+.fizz {
+    background-image: url('/public/images/code.png');
+}
+.blog2 {
+    
+    background-color: rgba(241, 224, 224, 0.64);
+}
+
+.read2 {
+
+}
+/*Logo area starts here*/
+.logo {
+    background-color:rgba(0, 0, 0, 0.94);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style-type:none;
+}
+
+
+/*body styles start here*/
+body {
+  margin: 0;
+  font: 16px / 1 sans-serif;
+}
+/*Heading and achor styles begin here */
+h2 {
+    color:rgba(247, 233, 233, 0.85);
+    display:flex;
+    justify-content:center;
+    padding-left:2em;
+}
+
+a {
+    background-color:#09105c;
+    color: white;
+    font-family:Roboto;
+    font-weight:bold;
+}
+/*Footer cotaining copyright and name*/
+footer {
+    background-color:rgba(0, 0, 0, 0.94);
+    color:rgba(247, 233, 233, 0.85); 
+    text-align: center;
+    font-size: 10px;
+}
+/*Shows outline of all elements  * DELETE UPON COMPLETION*/
+ /** {
+    border:1px solid lime;
+} */
